@@ -1,6 +1,6 @@
 {
-    "name": "primeng",
-    "version": "15.2.1-SNAPSHOT",
+    "name": "@mazvysp/primeng",
+    "version": "1.0.0",
     "license": "MIT",
     "scripts": {
         "ng": "ng",
