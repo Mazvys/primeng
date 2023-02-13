@@ -146,7 +146,7 @@ export class TableService {
                     [showSpacer]="false"
                     [showLoader]="loadingBodyTemplate"
                     [options]="virtualScrollOptions"
-                    [autoSize]="true"
+                    [autoSize]="autoSizeT"
                 >
                     <ng-template pTemplate="content" let-items let-scrollerOptions="options">
                         <ng-container *ngTemplateOutlet="buildInTable; context: { $implicit: items, options: scrollerOptions }"></ng-container>
@@ -299,6 +299,8 @@ export class Table implements OnInit, AfterViewInit, AfterContentInit, Blockable
     @Input() metaKeySelection: boolean;
 
     @Input() rowSelectable;
+
+    @Input() autoSizeT: boolean = true;
 
     @Input() rowTrackBy: Function = (index: number, item: any) => item;
 
