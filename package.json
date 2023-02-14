@@ -1,6 +1,6 @@
 {
     "name": "@mazvysp/primeng",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "MIT",
     "scripts": {
         "ng": "ng",
@@ -19,7 +19,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/primefaces/primeng.git"
+        "url": "https://github.com/Mazvys/primeng"
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "~15.1.0",
