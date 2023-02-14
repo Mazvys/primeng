@@ -28,18 +28,18 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { BlockableUI, FilterMatchMode, FilterMetadata, FilterOperator, FilterService, OverlayService, PrimeNGConfig, PrimeTemplate, SelectItem, SharedModule, SortMeta, TableState, TranslationKeys } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { CalendarModule } from 'primeng/calendar';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { DropdownModule } from 'primeng/dropdown';
-import { InputNumberModule } from 'primeng/inputnumber';
-import { InputTextModule } from 'primeng/inputtext';
-import { PaginatorModule } from 'primeng/paginator';
-import { Scroller, ScrollerModule, ScrollerOptions } from 'primeng/scroller';
-import { SelectButtonModule } from 'primeng/selectbutton';
-import { TriStateCheckboxModule } from 'primeng/tristatecheckbox';
-import { ObjectUtils, UniqueComponentId, ZIndexUtils } from 'primeng/utils';
+import { BlockableUI, FilterMatchMode, FilterMetadata, FilterOperator, FilterService, OverlayService, PrimeNGConfig, PrimeTemplate, SelectItem, SharedModule, SortMeta, TableState, TranslationKeys } from '@mazvysp/primeng/api';
+import { ButtonModule } from '@mazvysp/primeng/button';
+import { CalendarModule } from '@mazvysp/primeng/calendar';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@mazvysp/primeng/dom';
+import { DropdownModule } from '@mazvysp/primeng/dropdown';
+import { InputNumberModule } from '@mazvysp/primeng/inputnumber';
+import { InputTextModule } from '@mazvysp/primeng/inputtext';
+import { PaginatorModule } from '@mazvysp/primeng/paginator';
+import { Scroller, ScrollerModule, ScrollerOptions } from '@mazvysp/primeng/scroller';
+import { SelectButtonModule } from '@mazvysp/primeng/selectbutton';
+import { TriStateCheckboxModule } from '@mazvysp/primeng/tristatecheckbox';
+import { ObjectUtils, UniqueComponentId, ZIndexUtils } from '@mazvysp/primeng/utils';
 import { Subject, Subscription } from 'rxjs';
 
 @Injectable()

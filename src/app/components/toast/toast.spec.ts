@@ -3,7 +3,7 @@ import { By } from '@angular/platform-browser';
 import { Toast, ToastItem } from './toast';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@mazvysp/primeng/api';
 
 @Component({
     template: ` <p-toast></p-toast> `,

@@ -19,10 +19,10 @@ import {
     ViewEncapsulation,
     ViewRef
 } from '@angular/core';
-import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { RippleModule } from 'primeng/ripple';
-import { ZIndexUtils } from 'primeng/utils';
+import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@mazvysp/primeng/api';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@mazvysp/primeng/dom';
+import { RippleModule } from '@mazvysp/primeng/ripple';
+import { ZIndexUtils } from '@mazvysp/primeng/utils';
 import { Subscription } from 'rxjs';
 
 @Component({

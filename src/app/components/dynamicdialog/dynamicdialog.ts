@@ -1,9 +1,9 @@
 import { animate, animation, AnimationEvent, style, transition, trigger, useAnimation } from '@angular/animations';
 import { CommonModule } from '@angular/common';
 import { AfterViewInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, ComponentFactoryResolver, ComponentRef, ElementRef, NgModule, NgZone, OnDestroy, Renderer2, Type, ViewChild, ViewEncapsulation, ViewRef } from '@angular/core';
-import { PrimeNGConfig } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { ZIndexUtils } from 'primeng/utils';
+import { PrimeNGConfig } from '@mazvysp/primeng/api';
+import { DomHandler } from '@mazvysp/primeng/dom';
+import { ZIndexUtils } from '@mazvysp/primeng/utils';
 import { DynamicDialogConfig } from './dynamicdialog-config';
 import { DynamicDialogRef } from './dynamicdialog-ref';
 import { DynamicDialogContent } from './dynamicdialogcontent';

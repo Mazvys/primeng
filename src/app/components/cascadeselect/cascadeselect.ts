@@ -20,11 +20,11 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { Overlay, OverlayModule } from 'primeng/overlay';
-import { RippleModule } from 'primeng/ripple';
-import { ObjectUtils } from 'primeng/utils';
+import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@mazvysp/primeng/api';
+import { DomHandler } from '@mazvysp/primeng/dom';
+import { Overlay, OverlayModule } from '@mazvysp/primeng/overlay';
+import { RippleModule } from '@mazvysp/primeng/ripple';
+import { ObjectUtils } from '@mazvysp/primeng/utils';
 
 export const CASCADESELECT_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,

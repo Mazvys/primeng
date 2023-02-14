@@ -1,7 +1,7 @@
 import { NgModule, Component, ChangeDetectionStrategy, ViewEncapsulation, Input, ContentChildren, QueryList, ElementRef, ChangeDetectorRef, TemplateRef, ViewChild, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DomHandler } from 'primeng/dom';
-import { PrimeTemplate, SharedModule } from 'primeng/api';
+import { DomHandler } from '@mazvysp/primeng/dom';
+import { PrimeTemplate, SharedModule } from '@mazvysp/primeng/api';
 
 @Component({
     selector: 'p-splitter',

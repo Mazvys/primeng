@@ -1,9 +1,9 @@
 import { NgModule, Component, Input, Output, EventEmitter, ElementRef, ChangeDetectionStrategy, ViewEncapsulation, AfterContentInit, QueryList, ContentChildren, TemplateRef } from '@angular/core';
 import { trigger, state, style, transition, animate, AnimationEvent } from '@angular/animations';
 import { CommonModule } from '@angular/common';
-import { SharedModule, PrimeTemplate } from 'primeng/api';
-import { BlockableUI } from 'primeng/api';
-import { RippleModule } from 'primeng/ripple';
+import { SharedModule, PrimeTemplate } from '@mazvysp/primeng/api';
+import { BlockableUI } from '@mazvysp/primeng/api';
+import { RippleModule } from '@mazvysp/primeng/ripple';
 
 let idx: number = 0;
 

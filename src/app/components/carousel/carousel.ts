@@ -19,10 +19,10 @@ import {
     Renderer2,
     Inject
 } from '@angular/core';
-import { PrimeTemplate, SharedModule, Header, Footer } from 'primeng/api';
-import { RippleModule } from 'primeng/ripple';
+import { PrimeTemplate, SharedModule, Header, Footer } from '@mazvysp/primeng/api';
+import { RippleModule } from '@mazvysp/primeng/ripple';
 import { CommonModule, DOCUMENT } from '@angular/common';
-import { UniqueComponentId } from 'primeng/utils';
+import { UniqueComponentId } from '@mazvysp/primeng/utils';
 
 @Component({
     selector: 'p-carousel',

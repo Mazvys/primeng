@@ -1,11 +1,11 @@
 import { NgModule, Component, ChangeDetectionStrategy, ViewEncapsulation, ElementRef, ChangeDetectorRef, OnDestroy, Input, EventEmitter, Renderer2 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Confirmation, ConfirmationService, OverlayService, PrimeNGConfig, TranslationKeys } from 'primeng/api';
+import { Confirmation, ConfirmationService, OverlayService, PrimeNGConfig, TranslationKeys } from '@mazvysp/primeng/api';
 import { Subscription } from 'rxjs';
-import { ButtonModule } from 'primeng/button';
-import { ZIndexUtils } from 'primeng/utils';
+import { ButtonModule } from '@mazvysp/primeng/button';
+import { ZIndexUtils } from '@mazvysp/primeng/utils';
 import { trigger, state, style, transition, animate, AnimationEvent } from '@angular/animations';
-import { DomHandler, ConnectedOverlayScrollHandler } from 'primeng/dom';
+import { DomHandler, ConnectedOverlayScrollHandler } from '@mazvysp/primeng/dom';
 
 @Component({
     selector: 'p-confirmPopup',

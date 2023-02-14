@@ -19,10 +19,10 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
-import { MenuItem, PrimeTemplate, SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { RippleModule } from 'primeng/ripple';
-import { TooltipModule } from 'primeng/tooltip';
+import { MenuItem, PrimeTemplate, SharedModule } from '@mazvysp/primeng/api';
+import { DomHandler } from '@mazvysp/primeng/dom';
+import { RippleModule } from '@mazvysp/primeng/ripple';
+import { TooltipModule } from '@mazvysp/primeng/tooltip';
 
 @Component({
     selector: 'p-tabMenu',

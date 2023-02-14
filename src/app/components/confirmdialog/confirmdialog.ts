@@ -21,14 +21,14 @@ import {
 } from '@angular/core';
 import { trigger, style, transition, animate, AnimationEvent, useAnimation, animation } from '@angular/animations';
 import { CommonModule } from '@angular/common';
-import { DomHandler } from 'primeng/dom';
-import { Footer, SharedModule, PrimeTemplate, PrimeNGConfig, TranslationKeys, ConfirmEventType } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { Confirmation } from 'primeng/api';
-import { ConfirmationService } from 'primeng/api';
+import { DomHandler } from '@mazvysp/primeng/dom';
+import { Footer, SharedModule, PrimeTemplate, PrimeNGConfig, TranslationKeys, ConfirmEventType } from '@mazvysp/primeng/api';
+import { ButtonModule } from '@mazvysp/primeng/button';
+import { Confirmation } from '@mazvysp/primeng/api';
+import { ConfirmationService } from '@mazvysp/primeng/api';
 import { Subscription } from 'rxjs';
-import { UniqueComponentId, ZIndexUtils } from 'primeng/utils';
-import { RippleModule } from 'primeng/ripple';
+import { UniqueComponentId, ZIndexUtils } from '@mazvysp/primeng/utils';
+import { RippleModule } from '@mazvysp/primeng/ripple';
 
 const showAnimation = animation([style({ transform: '{{transform}}', opacity: 0 }), animate('{{transition}}', style({ transform: 'none', opacity: 1 }))]);
 

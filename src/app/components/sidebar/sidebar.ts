@@ -18,10 +18,10 @@ import {
     TemplateRef,
     ViewEncapsulation
 } from '@angular/core';
-import { PrimeNGConfig, PrimeTemplate } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { RippleModule } from 'primeng/ripple';
-import { ZIndexUtils } from 'primeng/utils';
+import { PrimeNGConfig, PrimeTemplate } from '@mazvysp/primeng/api';
+import { DomHandler } from '@mazvysp/primeng/dom';
+import { RippleModule } from '@mazvysp/primeng/ripple';
+import { ZIndexUtils } from '@mazvysp/primeng/utils';
 
 const showAnimation = animation([style({ transform: '{{transform}}', opacity: 0 }), animate('{{transition}}')]);
 

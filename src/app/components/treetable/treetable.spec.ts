@@ -4,7 +4,7 @@ import { TreeTable, TreeTableModule, TTScrollableView } from './treetable';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { Component } from '@angular/core';
-import { ContextMenuModule, ContextMenu } from 'primeng/contextmenu';
+import { ContextMenuModule, ContextMenu } from '@mazvysp/primeng/contextmenu';
 
 @Component({
     template: `

@@ -19,11 +19,11 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ZIndexUtils } from 'primeng/utils';
-import { MenuItem, PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
+import { ZIndexUtils } from '@mazvysp/primeng/utils';
+import { MenuItem, PrimeNGConfig, PrimeTemplate, SharedModule } from '@mazvysp/primeng/api';
 import { RouterModule } from '@angular/router';
-import { RippleModule } from 'primeng/ripple';
-import { TooltipModule } from 'primeng/tooltip';
+import { RippleModule } from '@mazvysp/primeng/ripple';
+import { TooltipModule } from '@mazvysp/primeng/tooltip';
 import { debounce, filter, interval, Subject, Subscription } from 'rxjs';
 
 @Injectable()

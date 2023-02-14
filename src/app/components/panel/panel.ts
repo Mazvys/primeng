@@ -1,8 +1,8 @@
 import { NgModule, Component, Input, Output, EventEmitter, ElementRef, ContentChild, ChangeDetectionStrategy, ViewEncapsulation, ContentChildren, QueryList, TemplateRef, AfterContentInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SharedModule, Footer, PrimeTemplate } from 'primeng/api';
-import { BlockableUI } from 'primeng/api';
-import { RippleModule } from 'primeng/ripple';
+import { SharedModule, Footer, PrimeTemplate } from '@mazvysp/primeng/api';
+import { BlockableUI } from '@mazvysp/primeng/api';
+import { RippleModule } from '@mazvysp/primeng/ripple';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 
 type PanelIconPosition = 'start' | 'end' | 'center';

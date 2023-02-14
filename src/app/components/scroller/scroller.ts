@@ -20,8 +20,8 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { PrimeTemplate } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
+import { PrimeTemplate } from '@mazvysp/primeng/api';
+import { DomHandler } from '@mazvysp/primeng/dom';
 
 export type ScrollerToType = 'to-start' | 'to-end' | undefined;
 

@@ -26,10 +26,10 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { InputTextModule } from 'primeng/inputtext';
-import { ZIndexUtils } from 'primeng/utils';
+import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@mazvysp/primeng/api';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@mazvysp/primeng/dom';
+import { InputTextModule } from '@mazvysp/primeng/inputtext';
+import { ZIndexUtils } from '@mazvysp/primeng/utils';
 import { Subscription } from 'rxjs';
 
 @Directive({

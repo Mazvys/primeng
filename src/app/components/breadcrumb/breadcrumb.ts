@@ -1,8 +1,8 @@
 import { NgModule, Component, Input, Output, EventEmitter, ChangeDetectionStrategy, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from '@mazvysp/primeng/api';
 import { RouterModule } from '@angular/router';
-import { TooltipModule } from 'primeng/tooltip';
+import { TooltipModule } from '@mazvysp/primeng/tooltip';
 
 @Component({
     selector: 'p-breadcrumb',

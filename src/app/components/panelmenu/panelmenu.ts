@@ -1,10 +1,10 @@
 import { NgModule, Component, Input, ChangeDetectorRef, ChangeDetectionStrategy, ViewEncapsulation } from '@angular/core';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import { CommonModule } from '@angular/common';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from '@mazvysp/primeng/api';
 import { RouterModule } from '@angular/router';
-import { TooltipModule } from 'primeng/tooltip';
-import { DomHandler } from 'primeng/dom';
+import { TooltipModule } from '@mazvysp/primeng/tooltip';
+import { DomHandler } from '@mazvysp/primeng/dom';
 
 export class BasePanelMenuItem {
     constructor(private ref: ChangeDetectorRef) {}

@@ -19,15 +19,15 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Message, PrimeNGConfig } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { PrimeTemplate, SharedModule } from 'primeng/api';
-import { MessageService } from 'primeng/api';
-import { ObjectUtils, UniqueComponentId } from 'primeng/utils';
-import { RippleModule } from 'primeng/ripple';
+import { Message, PrimeNGConfig } from '@mazvysp/primeng/api';
+import { DomHandler } from '@mazvysp/primeng/dom';
+import { PrimeTemplate, SharedModule } from '@mazvysp/primeng/api';
+import { MessageService } from '@mazvysp/primeng/api';
+import { ObjectUtils, UniqueComponentId } from '@mazvysp/primeng/utils';
+import { RippleModule } from '@mazvysp/primeng/ripple';
 import { Subscription } from 'rxjs';
 import { trigger, state, style, transition, animate, query, animateChild, AnimationEvent } from '@angular/animations';
-import { ZIndexUtils } from 'primeng/utils';
+import { ZIndexUtils } from '@mazvysp/primeng/utils';
 
 @Component({
     selector: 'p-toastItem',

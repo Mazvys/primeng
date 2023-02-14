@@ -21,12 +21,12 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import { BlockableUI, Message, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { DomHandler } from 'primeng/dom';
-import { MessagesModule } from 'primeng/messages';
-import { ProgressBarModule } from 'primeng/progressbar';
-import { RippleModule } from 'primeng/ripple';
+import { BlockableUI, Message, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@mazvysp/primeng/api';
+import { ButtonModule } from '@mazvysp/primeng/button';
+import { DomHandler } from '@mazvysp/primeng/dom';
+import { MessagesModule } from '@mazvysp/primeng/messages';
+import { ProgressBarModule } from '@mazvysp/primeng/progressbar';
+import { RippleModule } from '@mazvysp/primeng/ripple';
 import { Subscription } from 'rxjs';
 
 @Component({

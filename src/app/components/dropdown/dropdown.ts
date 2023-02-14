@@ -24,14 +24,14 @@ import {
     ViewRef
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { FilterService, OverlayOptions, PrimeNGConfig, PrimeTemplate, SelectItem, SharedModule, TranslationKeys } from 'primeng/api';
-import { AutoFocusModule } from 'primeng/autofocus';
-import { DomHandler } from 'primeng/dom';
-import { Overlay, OverlayModule } from 'primeng/overlay';
-import { RippleModule } from 'primeng/ripple';
-import { Scroller, ScrollerModule, ScrollerOptions } from 'primeng/scroller';
-import { TooltipModule } from 'primeng/tooltip';
-import { ObjectUtils, UniqueComponentId } from 'primeng/utils';
+import { FilterService, OverlayOptions, PrimeNGConfig, PrimeTemplate, SelectItem, SharedModule, TranslationKeys } from '@mazvysp/primeng/api';
+import { AutoFocusModule } from '@mazvysp/primeng/autofocus';
+import { DomHandler } from '@mazvysp/primeng/dom';
+import { Overlay, OverlayModule } from '@mazvysp/primeng/overlay';
+import { RippleModule } from '@mazvysp/primeng/ripple';
+import { Scroller, ScrollerModule, ScrollerOptions } from '@mazvysp/primeng/scroller';
+import { TooltipModule } from '@mazvysp/primeng/tooltip';
+import { ObjectUtils, UniqueComponentId } from '@mazvysp/primeng/utils';
 
 export const DROPDOWN_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,

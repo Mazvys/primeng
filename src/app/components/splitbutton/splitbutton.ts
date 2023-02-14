@@ -1,8 +1,8 @@
 import { NgModule, Component, ElementRef, Input, Output, EventEmitter, ViewChild, ChangeDetectionStrategy, ViewEncapsulation, TemplateRef, ContentChildren, QueryList } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MenuItem, PrimeTemplate } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { TieredMenuModule, TieredMenu } from 'primeng/tieredmenu';
+import { MenuItem, PrimeTemplate } from '@mazvysp/primeng/api';
+import { ButtonModule } from '@mazvysp/primeng/button';
+import { TieredMenuModule, TieredMenu } from '@mazvysp/primeng/tieredmenu';
 
 type SplitButtonIconPosition = 'left' | 'right';
 

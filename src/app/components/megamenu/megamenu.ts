@@ -1,9 +1,9 @@
 import { NgModule, Component, ElementRef, Input, Renderer2, ChangeDetectionStrategy, ViewEncapsulation, ChangeDetectorRef, AfterContentInit, ContentChildren, QueryList, TemplateRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MegaMenuItem, MenuItem, PrimeTemplate } from 'primeng/api';
+import { MegaMenuItem, MenuItem, PrimeTemplate } from '@mazvysp/primeng/api';
 import { RouterModule } from '@angular/router';
-import { RippleModule } from 'primeng/ripple';
-import { TooltipModule } from 'primeng/tooltip';
+import { RippleModule } from '@mazvysp/primeng/ripple';
+import { TooltipModule } from '@mazvysp/primeng/tooltip';
 
 @Component({
     selector: 'p-megaMenu',

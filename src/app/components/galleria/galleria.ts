@@ -22,10 +22,10 @@ import {
     DoCheck
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SharedModule, PrimeTemplate, PrimeNGConfig } from 'primeng/api';
-import { UniqueComponentId, ZIndexUtils } from 'primeng/utils';
-import { DomHandler } from 'primeng/dom';
-import { RippleModule } from 'primeng/ripple';
+import { SharedModule, PrimeTemplate, PrimeNGConfig } from '@mazvysp/primeng/api';
+import { UniqueComponentId, ZIndexUtils } from '@mazvysp/primeng/utils';
+import { DomHandler } from '@mazvysp/primeng/dom';
+import { RippleModule } from '@mazvysp/primeng/ripple';
 import { animate, style, transition, trigger, AnimationEvent } from '@angular/animations';
 
 @Component({

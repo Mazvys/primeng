@@ -1,9 +1,9 @@
 import { NgModule, Component, ChangeDetectionStrategy, ViewEncapsulation, Input, OnInit, OnDestroy, ElementRef, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { animate, state, style, transition, trigger, AnimationEvent } from '@angular/animations';
-import { DomHandler } from 'primeng/dom';
-import { ZIndexUtils } from 'primeng/utils';
-import { PrimeNGConfig } from 'primeng/api';
+import { DomHandler } from '@mazvysp/primeng/dom';
+import { ZIndexUtils } from '@mazvysp/primeng/utils';
+import { PrimeNGConfig } from '@mazvysp/primeng/api';
 
 @Component({
     selector: 'p-scrollTop',

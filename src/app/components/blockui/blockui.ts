@@ -1,8 +1,8 @@
 import { NgModule, Component, Input, AfterViewInit, OnDestroy, ElementRef, ViewChild, ChangeDetectionStrategy, ViewEncapsulation, ChangeDetectorRef, ContentChildren, QueryList, TemplateRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PrimeNGConfig, PrimeTemplate } from 'primeng/api';
-import { ZIndexUtils } from 'primeng/utils';
-import { DomHandler } from 'primeng/dom';
+import { PrimeNGConfig, PrimeTemplate } from '@mazvysp/primeng/api';
+import { ZIndexUtils } from '@mazvysp/primeng/utils';
+import { DomHandler } from '@mazvysp/primeng/dom';
 
 @Component({
     selector: 'p-blockUI',

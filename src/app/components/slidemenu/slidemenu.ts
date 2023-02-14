@@ -1,11 +1,11 @@
 import { NgModule, Component, ElementRef, AfterViewChecked, OnDestroy, Input, Renderer2, Inject, forwardRef, ViewChild, Output, EventEmitter, ChangeDetectorRef, ChangeDetectionStrategy, ViewEncapsulation, ViewRef } from '@angular/core';
 import { trigger, style, transition, animate, AnimationEvent } from '@angular/animations';
 import { CommonModule } from '@angular/common';
-import { DomHandler, ConnectedOverlayScrollHandler } from 'primeng/dom';
-import { MenuItem, OverlayService, PrimeNGConfig } from 'primeng/api';
+import { DomHandler, ConnectedOverlayScrollHandler } from '@mazvysp/primeng/dom';
+import { MenuItem, OverlayService, PrimeNGConfig } from '@mazvysp/primeng/api';
 import { RouterModule } from '@angular/router';
-import { ZIndexUtils } from 'primeng/utils';
-import { TooltipModule } from 'primeng/tooltip';
+import { ZIndexUtils } from '@mazvysp/primeng/utils';
+import { TooltipModule } from '@mazvysp/primeng/tooltip';
 
 @Component({
     selector: 'p-slideMenuSub',

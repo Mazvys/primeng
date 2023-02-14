@@ -1,10 +1,10 @@
 import { NgModule, Component, Input, ElementRef, ChangeDetectionStrategy, ViewEncapsulation, TemplateRef, AfterContentInit, ContentChildren, QueryList, Output, EventEmitter, ChangeDetectorRef, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SharedModule, PrimeTemplate, PrimeNGConfig } from 'primeng/api';
+import { SharedModule, PrimeTemplate, PrimeNGConfig } from '@mazvysp/primeng/api';
 import { trigger, style, transition, animate, AnimationEvent } from '@angular/animations';
 import { SafeUrl } from '@angular/platform-browser';
-import { DomHandler } from 'primeng/dom';
-import { ZIndexUtils } from 'primeng/utils';
+import { DomHandler } from '@mazvysp/primeng/dom';
+import { ZIndexUtils } from '@mazvysp/primeng/utils';
 
 @Component({
     selector: 'p-image',

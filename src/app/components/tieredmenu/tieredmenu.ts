@@ -1,12 +1,12 @@
 import { NgModule, Component, ElementRef, Input, Renderer2, OnDestroy, ChangeDetectorRef, ChangeDetectionStrategy, ViewEncapsulation, Output, EventEmitter, ViewRef, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { MenuItem, OverlayService, PrimeNGConfig } from 'primeng/api';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@mazvysp/primeng/dom';
+import { MenuItem, OverlayService, PrimeNGConfig } from '@mazvysp/primeng/api';
 import { RouterModule } from '@angular/router';
-import { RippleModule } from 'primeng/ripple';
+import { RippleModule } from '@mazvysp/primeng/ripple';
 import { animate, style, transition, trigger, AnimationEvent } from '@angular/animations';
-import { ZIndexUtils } from 'primeng/utils';
-import { TooltipModule } from 'primeng/tooltip';
+import { ZIndexUtils } from '@mazvysp/primeng/utils';
+import { TooltipModule } from '@mazvysp/primeng/tooltip';
 
 @Component({
     selector: 'p-tieredMenuSub',
