@@ -1,8 +1,7 @@
 {
     "name": "@mazvysp/primeng",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": "MIT",
-    "files":["dist"],
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
