@@ -142,6 +142,7 @@ export class TableService {
                     [inline]="true"
                     [lazy]="lazy"
                     (onLazyLoad)="onLazyItemLoad($event)"
+                    (onScroll)="onContainerScroll($event)"
                     [loaderDisabled]="true"
                     [showSpacer]="false"
                     [showLoader]="loadingBodyTemplate"
@@ -293,6 +294,8 @@ export class Table implements OnInit, AfterViewInit, AfterContentInit, Blockable
     @Output() contextMenuSelectionChange: EventEmitter<any> = new EventEmitter();
 
     @Input() contextMenuSelectionMode: string = 'separate';
+    
+    @Output() onScrollEmit: EventEmitter<any> = new EventEmitter();
 
     @Input() dataKey: string;
 
@@ -1810,6 +1813,10 @@ export class Table implements OnInit, AfterViewInit, AfterContentInit, Blockable
             ...event,
             rows: event.last - event.first
         });
+    }
+
+    onContainerScroll(event){
+        this.onScrollEmit.emit();
     }
 
     public resetScrollTop() {
